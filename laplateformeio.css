@@ -1,0 +1,36 @@
+body{
+    margin:0%
+}
+.top{
+    display:flex;
+    justify-content: space-between;
+    color: gray;
+}
+#dassault{
+    display:flex;
+    justify-content: space-between;
+    background-color: #336699;
+}
+#texte{
+    padding: 150px;
+    color:white
+}
+.Bouton-rose {
+    border: 0;
+    line-height: 2.5;
+    padding: 0 20px;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing:2px;
+    font-size: 20px;
+    font-weight: bolder;
+    text-align: center;
+    color: #fff;
+    width: auto;
+    border-radius: 30px;
+    background-color: #FF2063;
+}
+#conditions{
+    font-size: 10px;
+    text-align: center;
+    color: #7295b8;
+}

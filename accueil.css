@@ -1,0 +1,250 @@
+body{
+    margin:0%
+}
+.top{
+    display:flex;
+    justify-content: space-between;
+    color: gray;
+}
+#dassault{
+    display:flex;
+    justify-content: flex-start;
+    background-color: #336699;
+    width:577px height=10px;
+    color:white;
+}
+#texte{
+    padding: 150px;
+    color:white;
+}
+.Bouton-rose {
+    border: 0;
+    line-height: 2.5;
+    padding: 0 20px;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing:2px;
+    font-size: 20px;
+    font-weight: bolder;
+    text-align: center;
+    color: #fff;
+    width: auto;
+    border-radius: 30px;
+    background-color: #FF2063;
+}
+#conditions{
+    font-size: 10px;
+    text-align: center;
+    color: #7295b8;
+}
+#Premiere-section {
+    background-color: #336699;
+    display: flex;
+    justify-content: space-between;
+    
+}
+strong{
+    font-family: 'Roboto Slab', serif;
+}
+#PS-texte{
+    font-family: 'Roboto', sans-serif;
+    padding: 180px;
+    font-size: 25px;
+    
+    color:white;
+}
+#bouton{
+    text-align: center;
+}
+#conditions{
+    font-family:'Roboto',sans-serif;
+    color:#7babdb;
+    font-size: 10px;
+}
+
+#deuxieme-section {
+    background-color: white;
+    display: flex;
+    flex-direction:column; 
+}
+
+h1{
+    font-family: 'Roboto Slab', serif;
+    font-size: 40px;
+    font-weight: 600;
+    color:#336699;
+    text-align: center;
+}
+h2{
+    font-family: 'Roboto Slab', serif;
+    font-size: 22px;
+    font-weight: 600;
+    color:#336699;
+}
+h3{
+    font-family: 'Roboto Slab', serif;
+    font-size: 40px;
+    font-weight: 600;
+    
+}
+
+#colones{
+    
+    display: flex;
+    justify-content:space-between;
+    padding: 10px 100px 10px;
+}
+
+.boites-colone{
+    background-color:white;
+    width:30%;
+    box-shadow: 10px 10px 100px rgb(223, 223, 243);
+}
+.img{
+    text-align: center;
+}
+.texte-boites{
+    padding: 40px;
+    color: #336699;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    line-height: 1.5;
+    
+}
+
+
+.bouton{
+    text-align: center;
+}
+
+.Bouton-Jaune {
+    border: 0;
+    line-height: 3;
+    padding: 0 20px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    color: #fff;
+    width: auto;
+    border-radius: 30px;
+    background-color: #FFCA4B;
+    
+}
+
+
+
+.Bouton-Jaune:active {
+    box-shadow: inset -2px -2px 3px rgba(255, 255, 255, .6),
+                inset 2px 2px 3px rgba(0, 0, 0, .6);
+}
+
+.Bouton-rouge {
+    border: 0;
+    line-height: 2.5;
+    padding: 0 20px;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing:2px;
+    font-size: 20px;
+    font-weight: bolder;
+    text-align: center;
+    color: #fff;
+    width: auto;
+    border-radius: 30px;
+    background-color: #FF2063;
+    
+}
+
+.Bouton-rouge:hover {
+    width: 90%;
+}
+
+.Bouton-rouge:active {
+    box-shadow: inset -2px -2px 3px rgba(255, 255, 255, .6),
+                inset 2px 2px 3px rgba(0, 0, 0, .6);
+}
+
+#troiseme-section {
+    background-color: white;
+    display: flex;
+    flex-direction:column; 
+    align-items: center;
+    
+}
+
+
+.boites-ligne{
+    background-color:white;
+    display: flex;
+    flex-direction:row; 
+    width: 80%;
+    height: 130px;
+    box-shadow: 10px 10px 100px rgb(223, 223, 243);
+    padding: 0px 50px 0px;
+}
+
+.texte-ligne{
+    padding: 40px;
+    color: #336699;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    line-height: 1;
+    width: 900px;
+    padding: 0px 50px 0px;
+}
+
+
+#derniere-Section{
+    background-color: #FFA000;
+    
+}
+
+#video{
+    padding: 0px 100px 0px;
+    display: flex;
+    justify-content:space-between;
+}
+
+#texte-video{
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    color:white;
+    font-size: 18px;
+}
+footer{
+    background-color: #313131;
+    display: flex;
+    justify-content:space-between;
+    color:white;
+}
+
+.box-footer{
+    font-family: 'Roboto', sans-serif;
+    padding: 50px;
+    line-height: 2;
+    ;
+}
+.bt-footer{
+    border: 0;
+    line-height: 2.5;
+    padding: 0 30px;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing:2px;
+    font-size: 20px;
+    font-weight: bolder;
+    text-align: center;
+    color: #fff;
+    width: auto;
+    border: 2px solid white;
+    background-color: #313131;
+    
+}
+.bt-footer:hover {
+    border-color:#313131;
+}
+
+#ligne-fin{
+    padding: 10px 210px 10px;
+    font-family: 'Roboto', sans-serif;
+    background-color: black;
+    color: white;
+}
